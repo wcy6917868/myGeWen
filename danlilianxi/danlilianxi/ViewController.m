@@ -27,7 +27,8 @@
     label.backgroundColor = [UIColor redColor];
     label.text = @"黄老狗,你会死";
     UILabel *label2 = [[UILabel alloc]init];
-    label2.text = @"black beatles";
+    label2.text = @"black beatles 哈哈哈哈哈哈哈哈哈";
+    
     [label sizeToFit];
     [self.view addSubview:label];
 }
