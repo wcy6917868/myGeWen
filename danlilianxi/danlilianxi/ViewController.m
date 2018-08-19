@@ -26,6 +26,7 @@
     label.frame = CGRectMake(50, 50, 150, 80);
     label.backgroundColor = [UIColor redColor];
     label.text = @"黄老狗,你会死";
+    UILabel *label2 = [[UILabel alloc]init];
     [label sizeToFit];
     [self.view addSubview:label];
 }
